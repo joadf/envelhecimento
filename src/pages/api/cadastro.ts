@@ -12,6 +12,8 @@ export default async function handler(
 
   if (req.method === 'POST') {
 
+    console.log("cadastro...");
+
     try {
 
       const { name, phone, where } = req.body;

@@ -11,6 +11,8 @@ export default async function handler(
 
     if (req.method === 'GET') {
 
+        console.log("listagem...");
+
         try {
 
             const leads = await prisma.lead.findMany();
