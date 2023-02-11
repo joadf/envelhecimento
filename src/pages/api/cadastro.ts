@@ -23,8 +23,6 @@ export default function handler(
 
     const reqPayload = req?.body;
 
-    log("Req Payload: ", reqPayload);
-
     return res.json(reqPayload);
 
   }

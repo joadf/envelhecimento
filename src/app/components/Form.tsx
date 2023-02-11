@@ -36,7 +36,7 @@ export function Form() {
         try {
 
             const response = await fetch(
-                `http://localhost:3001/api/cadastro`,
+                `/api/cadastro`,
                 {
                     body: JSON.stringify(data),
                     headers: {
