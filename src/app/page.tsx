@@ -3,6 +3,8 @@ import './styles.css'
 import Image from 'next/image'
 import Script from 'next/script'
 
+import Map from './components/Map';
+
 export default function Home() {
   return (
     <>
@@ -516,7 +518,7 @@ export default function Home() {
           </div>
 
           <div className="container grid">
-            <div id="map"></div>
+            <Map />
           </div>
         </section>
 
