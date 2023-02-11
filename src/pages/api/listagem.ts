@@ -1,8 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-import { PrismaClient } from '@prisma/client'
-
-const prisma = new PrismaClient();
+import { getAllLeads } from '@/lib/db';
 
 export default async function handler(
   req: NextApiRequest,
@@ -15,7 +13,7 @@ export default async function handler(
 
         try {
 
-            const leads = await prisma.lead.findMany();
+            const leads = await getAllLeads();
 
             return res.status(200).json({
                 data: leads
