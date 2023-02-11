@@ -19,18 +19,17 @@ export default async function handler(
                 data: leads
             });
 
-        } catch (err) {
+        } catch (error) {
 
-            return res.status(500).json({
-                err
-            });
-
-        }
+            console.error('Request error', error)
+            res.status(500).json({ error: 'Error listing leads', success: false })
+      
+          }
 
     }
 
-    return res.status(500).json({
-        msg: 'This must be a GET request'
-    })
+    return res.status(405).json({
+        message: 'Method not allowed', success: false
+    });
 
 }

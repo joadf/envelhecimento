@@ -26,18 +26,17 @@ export default async function handler(
 
       return res.status(201).json(lead);
 
-    } catch (err) {
+    } catch (error) {
 
-      return res.status(500).json({
-          err
-      });
+      console.error('Request error', error)
+      res.status(500).json({ error: 'Error creating lead', success: false })
 
     }
 
   }
 
-  return res.status(500).json({
-    msg: 'This must be a POST request'
-  })
+  return res.status(405).json({
+    message: 'Method not allowed', success: false
+  });
 
 }
