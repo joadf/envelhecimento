@@ -3,8 +3,6 @@ import './styles.css'
 import Image from 'next/image'
 import Script from 'next/script'
 
-import Map from './components/Map';
-
 export default function Home() {
   return (
     <>
@@ -506,19 +504,6 @@ export default function Home() {
                 <span className="sr-only">Próximo</span>
               </a>
             </div>
-          </div>
-        </section>
-
-        <section className="section-meals" id="meals">
-          <div className="container center-text">
-            <span className="subheading">Endereço</span>
-            <h2 className="heading-secondary">
-              Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR
-            </h2>
-          </div>
-
-          <div className="container grid">
-            <Map />
           </div>
         </section>
 
