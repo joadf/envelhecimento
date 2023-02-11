@@ -2,7 +2,7 @@ import './styles.css'
 
 import Image from 'next/image'
 import Script from 'next/script'
-import { Form } from './components/Form'
+import { Form } from '../components/Form'
 
 export default function Home() {
   return (
