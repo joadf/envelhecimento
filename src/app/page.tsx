@@ -2,6 +2,7 @@ import './styles.css'
 
 import Image from 'next/image'
 import Script from 'next/script'
+import { Form } from './components/Form'
 
 export default function Home() {
   return (
@@ -568,56 +569,15 @@ export default function Home() {
               <div className="cta-text-box">
                 <h2 className="heading-secondary">Agende sua avaliação!</h2>
                 <p className="cta-text">
-                  A avaliação é indispensável para um atendimento de
-                  qualidade... Agenda com vagas limitadas!
+                    A avaliação é indispensável para um atendimento de
+                    qualidade... Agenda com vagas limitadas!
                 </p>
-
-                <form className="cta-form" name="sign-up">
-                  <div>
-                    <label htmlFor="full-name">Nome completo</label>
-                    <input
-                      id="full-name"
-                      type="text"
-                      placeholder="Maria da Silva"
-                      name="full-name"
-                      required
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="email">Telefone</label>
-                    <input
-                      id="phone"
-                      type="phone"
-                      placeholder="(41) 99999-9999"
-                      name="email"
-                      required
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="select-where">
-                      De onde você me conhece?
-                    </label>
-                    <select id="select-where" name="select-where" required>
-                      <option value="">Escolhe uma opção por favor:</option>
-                      <option value="friends">Cliente antiga</option>
-                      <option value="youtube">Indicação</option>
-                      <option value="podcast">Google</option>
-                      <option value="ad">Instagram</option>
-                      <option value="others">Outros</option>
-                    </select>
-                  </div>
-
-                  <a href="#cta" className="btn btn--full margin-right-sm">
-                    Agendar minha avaliação!
-                  </a>
-                </form>
+                <Form/>
               </div>
               <div
                 className="cta-img-box"
                 role="img"
-                aria-label="Woman enjoying food"
+                aria-label="Dra. Jô descrevendo uma avaliação personalizada em sua mesa"
               ></div>
             </div>
           </div>
