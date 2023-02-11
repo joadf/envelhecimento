@@ -1,1 +1,568 @@
-{"__ssr_module_mapping__":{"2":{"":{"id":"2223","name":"","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"*":{"id":"2223","name":"*","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"Form":{"id":"2223","name":"Form","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false}},"5192":{"":{"id":"4923","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"4923","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"4923","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"6281":{"":{"id":"6848","name":"","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"*":{"id":"6848","name":"*","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"default":{"id":"6848","name":"default","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false}},"7631":{"":{"id":"8912","name":"","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false},"*":{"id":"8912","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false},"default":{"id":"8912","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false}},"8186":{"":{"id":"5236","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"5236","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"5236","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"8500":{"":{"id":"5349","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"5349","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"5349","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"9979":{"":{"id":"8362","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"8362","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"8362","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"/Users/ronszcka/Estética/next/envelhecimento/src/app/page":["static/css/627f20f029f00926.css"]},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/client/script.js":{"":{"id":"7631","name":"","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false},"*":{"id":"7631","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false},"default":{"id":"7631","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/esm/client/script.js":{"":{"id":"7631","name":"","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false},"*":{"id":"7631","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false},"default":{"id":"7631","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","179:main-917f23ed3d514306"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/client/components/app-router.js":{"":{"id":"8186","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"8186","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"8186","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/esm/client/components/app-router.js":{"":{"id":"8186","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"8186","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"8186","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/client/components/error-boundary.js":{"":{"id":"9979","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"9979","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"9979","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/esm/client/components/error-boundary.js":{"":{"id":"9979","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"9979","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"9979","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/client/components/layout-router.js":{"":{"id":"8500","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"8500","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"8500","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/esm/client/components/layout-router.js":{"":{"id":"8500","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"8500","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"8500","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/client/components/render-from-template-context.js":{"":{"id":"5192","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"5192","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"5192","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/esm/client/components/render-from-template-context.js":{"":{"id":"5192","name":"","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"*":{"id":"5192","name":"*","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false},"default":{"id":"5192","name":"default","chunks":["272:webpack-96bb22bb93b2ade5","166:166-657ac54bd4b71fe2","744:main-app-b462dcd628ca5219"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/client/image.js":{"":{"id":"6281","name":"","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"*":{"id":"6281","name":"*","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"default":{"id":"6281","name":"default","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/node_modules/.pnpm/next@13.1.6_biqbaboplfbrettd7655fr4n2y/node_modules/next/dist/esm/client/image.js":{"":{"id":"6281","name":"","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"*":{"id":"6281","name":"*","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"default":{"id":"6281","name":"default","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/src/components/Form.tsx":{"":{"id":"2","name":"","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"*":{"id":"2","name":"*","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false},"Form":{"id":"2","name":"Form","chunks":["92:92-2d9d1d3296e71c6c","931:app/page-f2644baebf189b1c"],"async":false}},"/Users/ronszcka/Estética/next/envelhecimento/src/app/styles.css":{"default":{"id":"9546","name":"default","chunks":["static/css/627f20f029f00926.css"]}}}
+{
+  "__ssr_module_mapping__": {
+    "./node_modules/next/dist/client/script.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "",
+        "chunks": [
+          "webpack:webpack",
+          "amp:amp"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [
+          "webpack:webpack",
+          "amp:amp"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "default",
+        "chunks": [
+          "webpack:webpack",
+          "amp:amp"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Form.tsx": {
+      "": {
+        "id": "(sc_client)/./src/components/Form.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/components/Form.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "Form": {
+        "id": "(sc_client)/./src/components/Form.tsx",
+        "name": "Form",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "/Users/ronszcka/Estética/next/envelhecimento/src/app/page": [
+      "static/css/_app-client_src_app_styles_css.css"
+    ]
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/client/script.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/esm/client/script.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/esm/client/image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/src/components/Form.tsx": {
+    "": {
+      "id": "(app-client)/./src/components/Form.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/Form.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "Form": {
+      "id": "(app-client)/./src/components/Form.tsx",
+      "name": "Form",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/client/components/app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/esm/client/components/app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/client/components/error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/client/components/layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/ronszcka/Estética/next/envelhecimento/src/app/styles.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_styles_css.css"
+      ]
+    }
+  }
+}
