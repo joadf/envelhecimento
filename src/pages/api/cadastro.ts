@@ -12,17 +12,27 @@ export default async function handler(
 
   if (req.method === 'POST') {
 
-    const { name, phone, where } = req.body;
+    try {
 
-    const lead = await prisma.lead.create({
-      data: {
-        name,
-        phone,
-        where
-      }
-    })
+      const { name, phone, where } = req.body;
 
-    return res.status(201).json(lead);
+      const lead = await prisma.lead.create({
+        data: {
+          name,
+          phone,
+          where
+        }
+      })
+
+      return res.status(201).json(lead);
+
+    } catch (err) {
+
+      return res.status(500).json({
+          err
+      });
+
+    }
 
   }
 

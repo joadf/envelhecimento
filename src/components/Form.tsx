@@ -47,6 +47,8 @@ export function Form() {
             );
 
             if (response.status >= 400) {
+                console.log(response.status);
+                console.log(response);
                 // return res.status(400).json({
                 //     error: 'There was an error'
                 // });

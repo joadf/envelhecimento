@@ -9,13 +9,23 @@ export default async function handler(
   res: NextApiResponse,
 ) {
 
-    const leads = await prisma.lead.findMany();
-
     if (req.method === 'GET') {
 
-        return res.status(200).json({
-            data: leads
-        });
+        try {
+
+            const leads = await prisma.lead.findMany();
+
+            return res.status(200).json({
+                data: leads
+            });
+
+        } catch (err) {
+
+            return res.status(500).json({
+                err
+            });
+
+        }
 
     }
 
