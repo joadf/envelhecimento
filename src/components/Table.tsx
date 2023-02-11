@@ -1,6 +1,10 @@
 export async function Table() {
-    const response = await fetch('/api/listagem', {
+    const response = await fetch('https://lp.joandrade.com/api/listagem', {
       cache: 'no-store',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      method: 'GET'
     })
 
     if (response.status === 200) {

@@ -36,7 +36,7 @@ export function Form() {
         try {
 
             const response = await fetch(
-                `/api/cadastro`,
+                `https://lp.joandrade.com/api/cadastro`,
                 {
                     body: JSON.stringify(data),
                     headers: {
