@@ -44,7 +44,7 @@ export default function Home() {
                 Agende sua avaliação!
               </a>
 
-              <a href="#how" className="btn btn--outline">
+              <a href="#how1" className="btn btn--outline">
                 Saiba mais &darr;
               </a>
               <div className="delivered-meals">
