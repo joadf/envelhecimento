@@ -349,6 +349,9 @@ export default function Home() {
             <h2 className="heading-secondary">
               EJ Estética de Alta Performance
             </h2>
+            <h3 className="heading-tertiary">
+              Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR
+            </h3>
           </div>
 
           <div className="container grid">
