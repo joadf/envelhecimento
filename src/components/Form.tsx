@@ -12,6 +12,19 @@ type Inputs = {
     where: string;
 }
 
+const handlePhone = (event: any) => {
+    let input = event.target
+    input.value = phoneMask(input.value)
+}
+
+const phoneMask = (value: string) => {
+    if (!value) return ""
+    value = value.replace(/\D/g,'')
+    value = value.replace(/(\d{2})(\d)/,"($1) $2")
+    value = value.replace(/(\d)(\d{4})$/,"$1-$2")
+    return value
+}
+
 export function Form() {
 
     const {
@@ -98,6 +111,7 @@ export function Form() {
                 placeholder="(41) 99999-9999"
                 disabled={ isSubmitting }
                 { ...register('phone') }
+                onKeyUp={ handlePhone }
             />
             { errors.phone?.message && <div>{ errors.phone?.message }</div> }
         </div>
@@ -124,7 +138,7 @@ export function Form() {
             Agendar avaliação!
         </button>
 
-        <pre>{JSON.stringify(watch(), null, 2)}</pre>
+        {/* <pre>{JSON.stringify(watch(), null, 2)}</pre> */}
     </form>
   )
 }

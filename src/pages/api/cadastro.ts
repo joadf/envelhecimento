@@ -18,7 +18,10 @@ export default async function handler(
 
       const lead = await createLead(name, phone, where);
 
-      return res.status(201).json(lead);
+      return res.status(201).json({
+        message: 'OK',
+        success: true
+      });
 
     } catch (error) {
 
