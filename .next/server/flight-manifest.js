@@ -34,7 +34,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/obrigada/page:app/obrigada/page"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -42,7 +42,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/obrigada/page:app/obrigada/page"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -50,7 +50,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/obrigada/page:app/obrigada/page"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -214,9 +214,6 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
-    "/Users/ronszcka/Estética/next/envelhecimento/src/app/obrigada/page": [
-      "static/css/_app-client_src_app_obrigada_styles_css.css"
-    ],
     "/Users/ronszcka/Estética/next/envelhecimento/src/app/page": [
       "static/css/_app-client_src_app_styles_css.css"
     ]
@@ -278,7 +275,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/obrigada/page:app/obrigada/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -286,7 +283,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/obrigada/page:app/obrigada/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -294,7 +291,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/obrigada/page:app/obrigada/page"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -304,7 +301,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/obrigada/page:app/obrigada/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -312,7 +309,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/obrigada/page:app/obrigada/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -320,7 +317,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/obrigada/page:app/obrigada/page"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -557,15 +554,6 @@ self.__RSC_MANIFEST={
         "app-client-internals:app-client-internals"
       ],
       "async": false
-    }
-  },
-  "/Users/ronszcka/Estética/next/envelhecimento/src/app/obrigada/styles.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_src_app_obrigada_styles_css.css"
-      ]
     }
   },
   "/Users/ronszcka/Estética/next/envelhecimento/src/app/styles.css": {

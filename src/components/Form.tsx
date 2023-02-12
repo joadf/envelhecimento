@@ -47,8 +47,8 @@ export function Form() {
 
     const onSubmit: SubmitHandler<Inputs> = async (data) => {
         
-        //await new Promise((resolve) => setTimeout(resolve, 5000))
-        //console.log(data);
+        await new Promise((resolve) => setTimeout(resolve, 5000))
+        console.log(data);
 
         try {
 
@@ -76,16 +76,10 @@ export function Form() {
             if (response.status >= 400) {
                 console.log(response.status);
                 console.log(response);
-                // return res.status(400).json({
-                //     error: 'There was an error'
-                // });
             }
 
-            // return res.status(200).json({ status: 'ok' });
         } catch (error) {
-            // return res.status(500).json({
-            //     error: 'There was an error'
-            // });
+            console.log(error);
         }
         
     }
@@ -146,7 +140,7 @@ export function Form() {
             className="btn--submit btn--form margin-right-sm"
             disabled={ isSubmitting }
         >
-            Agendar avaliação!
+            {!isSubmitting ? "Agendar avaliação!" : "Agendando..." }
         </button>
 
         {/* <pre>{JSON.stringify(watch(), null, 2)}</pre> */}

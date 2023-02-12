@@ -195,6 +195,13 @@ body {
   transition: all 0.3s;
 }
 
+.btn--submit:disabled,
+.btn:disabled {
+  background: #e7e8e9;
+  color: #9fa3a9;
+  cursor: not-allowed;
+}
+
 .btn--full:link,
 .btn--full:visited {
   background-color: #0abab5;
