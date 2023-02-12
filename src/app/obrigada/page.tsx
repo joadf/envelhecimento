@@ -1,17 +1,17 @@
 import './styles.css'
 
-import { useEffect } from 'react'
-
+import Script from 'next/script'
 import Image from 'next/image'
 
 export default async function Obrigada() {
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-
   return (
     <>
+      <Script id="window-scrolltop" strategy="afterInteractive">
+        {`
+          window.scrollTo(0, 0);
+        `}
+      </Script>
       <main>
         <section className="section-hero">
           <div className="hero">
