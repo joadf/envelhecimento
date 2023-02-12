@@ -1,5 +1,7 @@
 'use client'
 
+import { useState } from 'react';
+
 import { useRouter } from 'next/navigation';
 
 import { useForm, SubmitHandler } from 'react-hook-form'
@@ -31,6 +33,8 @@ export function Form() {
 
     const router = useRouter();
 
+    const [hasSubmited, setHasSubmited] = useState(false);
+
     const {
         register,
         handleSubmit,
@@ -47,10 +51,9 @@ export function Form() {
 
     const onSubmit: SubmitHandler<Inputs> = async (data) => {
         
-        await new Promise((resolve) => setTimeout(resolve, 5000))
-        console.log(data);
-
         try {
+
+            setHasSubmited(true);
 
             const response = await fetch(
                 `https://lp.joandrade.com/api/cadastro`,
@@ -101,7 +104,7 @@ export function Form() {
                 id="name"
                 type="text"
                 placeholder="Maria da Silva"
-                disabled={ isSubmitting }
+                disabled={ isSubmitting || hasSubmited }
                 { ...register('name') }
             />
             { errors.name?.message && <div className='error-message'>{ errors.name?.message }</div> }
@@ -113,7 +116,7 @@ export function Form() {
                 id="phone"
                 type="phone"
                 placeholder="(41) 99999-9999"
-                disabled={ isSubmitting }
+                disabled={ isSubmitting || hasSubmited }
                 { ...register('phone') }
                 onKeyUp={ handlePhone }
                 maxLength={15}
@@ -127,7 +130,7 @@ export function Form() {
             </label>
             <select
                 id="where"
-                disabled={ isSubmitting }
+                disabled={ isSubmitting || hasSubmited }
                 { ...register('where') }
             >
                 { whereOptions }
@@ -138,9 +141,9 @@ export function Form() {
         <button
             type="submit"
             className="btn--submit btn--form margin-right-sm"
-            disabled={ isSubmitting }
+            disabled={ isSubmitting || hasSubmited }
         >
-            {!isSubmitting ? "Agendar avaliação!" : "Agendando..." }
+            {isSubmitting || hasSubmited ? "Agendando..." : "Agendar avaliação!" }
         </button>
 
         {/* <pre>{JSON.stringify(watch(), null, 2)}</pre> */}

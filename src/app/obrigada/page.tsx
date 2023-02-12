@@ -1,8 +1,15 @@
 import './styles.css'
 
+import { useEffect } from 'react'
+
 import Image from 'next/image'
 
 export default async function Obrigada() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <main>
@@ -33,7 +40,7 @@ export default async function Obrigada() {
             </div>
           </div>
         </section>
-        </main>
-        </>
+      </main>
+    </>
   );
 }
