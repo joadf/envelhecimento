@@ -1311,6 +1311,11 @@ strong {
     height: 32rem;
     grid-row: 1;
   }
+
+  .cta-text {
+    display: none;
+  }
+  
 }
 
 
