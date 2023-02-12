@@ -174,7 +174,7 @@ body {
   letter-spacing: 0.75px;
 }
 
-.btn,
+.btn--submit,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -1306,6 +1306,8 @@ strong {
   }
 }
 
+
+
 /* 
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
@@ -1365,4 +1367,14 @@ strong {
     margin-right: 0;
     margin-bottom: 4.8rem;
   }
+}
+
+/**************************/
+/* FORM validation
+/**************************/
+
+.error-message {
+  color: red;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
 }

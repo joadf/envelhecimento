@@ -1,5 +1,7 @@
 'use client'
 
+import { useRouter } from 'next/navigation';
+
 import { useForm, SubmitHandler } from 'react-hook-form'
 
 import { zodResolver } from '@hookform/resolvers/zod'
@@ -26,6 +28,8 @@ const phoneMask = (value: string) => {
 }
 
 export function Form() {
+
+    const router = useRouter();
 
     const {
         register,
@@ -59,6 +63,16 @@ export function Form() {
                 }
             );
 
+            if (response.status === 201) {
+                
+                const json = await response.json();
+
+                console.log(json);
+
+                router.push('/obrigada')
+
+            }
+
             if (response.status >= 400) {
                 console.log(response.status);
                 console.log(response);
@@ -67,10 +81,6 @@ export function Form() {
                 // });
             }
 
-            const json = await response.json();
-
-            console.log(json);
-        
             // return res.status(200).json({ status: 'ok' });
         } catch (error) {
             // return res.status(500).json({
@@ -100,7 +110,7 @@ export function Form() {
                 disabled={ isSubmitting }
                 { ...register('name') }
             />
-            { errors.name?.message && <div>{ errors.name?.message }</div> }
+            { errors.name?.message && <div className='error-message'>{ errors.name?.message }</div> }
         </div>
 
         <div>
@@ -112,8 +122,9 @@ export function Form() {
                 disabled={ isSubmitting }
                 { ...register('phone') }
                 onKeyUp={ handlePhone }
+                maxLength={15}
             />
-            { errors.phone?.message && <div>{ errors.phone?.message }</div> }
+            { errors.phone?.message && <div className='error-message'>{ errors.phone?.message }</div> }
         </div>
 
         <div>
@@ -127,12 +138,12 @@ export function Form() {
             >
                 { whereOptions }
             </select>
-            { errors.where?.message && <div>{ errors.where?.message }</div> }
+            { errors.where?.message && <div className='error-message'>{ errors.where?.message }</div> }
         </div>
 
         <button
             type="submit"
-            className="btn btn--full margin-right-sm"
+            className="btn--submit btn--form margin-right-sm"
             disabled={ isSubmitting }
         >
             Agendar avaliação!
