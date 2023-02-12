@@ -5,6 +5,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="pt-BR">
       <head>
         <title>Dra. Jociene Andrade - Estética Avançada!</title>
+        <meta name="facebook-domain-verification" content="v16p8llkdbhknw5hqqwanx3dhpsjx7" />
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
