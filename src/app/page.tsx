@@ -100,22 +100,18 @@ export default function Home() {
                   />
                 </div>
                 <p className="delivered-text">
-                  Mais de <span>2.000</span> pacientes satisfeitos!
+                  Mais de <b>2.000</b> pacientes satisfeitos!
                 </p>
               </div>
             </div>
             <div className="hero-img-box">
-              <video
-                className="video"
-                autoPlay
-                loop
-                muted
-                playsInline
-                src="/img/Jo-Francine.mp4"
-                itemType="video/mp4"
-              >
-                Vídeo
-              </video>
+              <Image
+                className="hero-img"
+                src="/img/fotos/dra-jociene-andrade.jpg"
+                alt="Foto da Dra. Jociene em sua mesa no momento da avaliação"
+                width={1024}
+                height={1364}
+              />
             </div>
           </div>
         </section>
@@ -185,6 +181,14 @@ export default function Home() {
               </p>
             </div>
           </div>
+
+          <div className="container">
+              <div className="grid">
+                <a href="#cta" className="btn btn--full margin-right-sm">
+                  Quero agendar minha avaliação!
+                </a>
+              </div>
+            </div>
         </section>
 
         <section className="section-how" id="how2">
@@ -354,6 +358,7 @@ export default function Home() {
               qualidade é essencial e obrigatória para firmamos esse
               compromisso.
             </p>
+            <br/><br/>
             <div className="grid">
               <a href="#cta" className="btn btn--full margin-right-sm">
                 Quero agendar minha avaliação com responsabilidade!
@@ -369,11 +374,11 @@ export default function Home() {
               EJ Estética de Alta Performance
             </h2>
             <h3 className="heading-tertiary">
-              Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR
+                Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR
             </h3>
           </div>
 
-          <div className="container grid">
+          <div id="carousel" className="container grid">
             <div
               id="carouselExampleIndicators"
               className="carousel slide"
@@ -578,6 +583,14 @@ export default function Home() {
                 />
               </div>
             </div>
+            <br/><br/><br/>
+            <div className="container">
+              <div className="grid">
+                <a href="#cta" className="btn btn--full margin-right-sm">
+                  Quero agendar minha avaliação!
+                </a>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -651,7 +664,7 @@ export default function Home() {
                 <a
                   className="footer-link"
                   target="_blank"
-                  href="https://www.google.com/maps/place/EJ+Est%C3%A9tica+Avan%C3%A7ada+de+Alta+Performance/@-25.4089783,-49.254564,15z/data=!4m6!3m5!1s0x94dce7cbb360ffff:0xd1c64df9f460547f!8m2!3d-25.4089783!4d-49.254564!16s%2Fg%2F11g6hw1_0w"
+                  href="https://www.google.com/maps/place/Av.+Paran%C3%A1,+202+-+Cabral,+Curitiba+-+PR,+80035-130/@-25.4092954,-49.2564163,17.18z/data=!4m6!3m5!1s0x94dce4263c45e0cd:0x83f38d756f94e8d3!8m2!3d-25.4089878!4d-49.2545642!16s%2Fg%2F11cnchp8_8"
                   rel="noreferrer"
                 >
                   Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR

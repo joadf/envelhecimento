@@ -20,7 +20,7 @@ export default async function Obrigada() {
                 Obrigada pelo interesse na avaliação!
               </h1>
               <p className="hero-description">
-                Já salvamos seu contato e logo iremos entrar em contato contigo para agendar o seu horário!
+                Já salvamos seu número e logo iremos entrar em contato contigo para agendar o seu horário!
               </p>
               <p className="hero-description">
                 Te aguado em breve em meu consultório para tirar todas as suas dúvidas e te deixar ainda mais linda!

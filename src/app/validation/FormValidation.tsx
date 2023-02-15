@@ -11,7 +11,7 @@ export const whereEnum = [
 export type whereStatus = typeof whereEnum[number]
 
 export const mappedWhereStatus: { [key in whereStatus]: string } = {
-    antiga: 'Antiga',
+    antiga: 'Já sou cliente',
     indicacao: 'Indicação',
     google: 'Google',
     instagram: 'Instagram',

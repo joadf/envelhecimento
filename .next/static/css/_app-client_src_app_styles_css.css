@@ -1326,7 +1326,15 @@ strong {
   .cta-text {
     display: none;
   }
-  
+
+  .footer-logo {
+    display: none;
+  }
+
+  #carousel {
+    display: none;
+  }
+    
 }
 
 
