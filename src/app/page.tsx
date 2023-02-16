@@ -11,24 +11,6 @@ export default function Home() {
         src="https://www.googletagmanager.com/gtag/js?id=G-SW67Q3WR3D"
         strategy="afterInteractive"
       />
-      <Script id="meta-pixel" strategy="afterInteractive">
-        {`
-          <script>
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '877232926828950');
-          fbq('track', 'PageView');
-          <noscript><img height="1" width="1" style="display:none"
-          src="https://www.facebook.com/tr?id=877232926828950&ev=PageView&noscript=1"
-          /></noscript>
-        `}
-      </Script>
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
@@ -52,20 +34,24 @@ export default function Home() {
           <div className="hero">
             <div className="hero-text-box">
               <h1 className="heading-primary">
-                A hora de cuidar do seu envelhecimento é agora!
+                Avaliação personalizada para protocolos estéticos de alta performance!
               </h1>
               <p className="hero-description">
-                Te ajudo a gerenciar seu processo de envelhecimento realizando
+                Há mais de <strong>18 anos</strong> devolvendo autoestima para as pessoas, a Dra. Jô te ajuda a gerenciar seu processo de envelhecimento, realizando
                 procedimentos estéticos com naturalidade, sem exageros,
                 preservando seus traços naturais!
               </p>
-              <a href="#cta" className="btn btn--full margin-right-sm">
-                Agende sua avaliação!
-              </a>
 
-              <a href="#how1" className="btn btn--outline">
-                Saiba mais &darr;
-              </a>
+              <div className="hero-flex-buttons">
+                <a href="#cta" className="btn btn--full margin-right-sm">
+                  Quero agendar minha avaliação!
+                </a>
+
+                <a href="#how-metodo" className="btn btn--outline">
+                  Saiba mais &darr;
+                </a>
+              </div>
+
               <div className="delivered-meals">
                 <div className="delivered-imgs">
                   <Image
@@ -115,83 +101,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <section className="section-how" id="how1">
-          <div className="container">
-            <h3 className="heading-tertiary">Quem é a Dra. Jô?</h3>
-            <p className="step-description">
-              Com mais de 18 anos de experiência no ramo da estética, a Dra.
-              Jociene Andrade é uma renomada especialista em harmonização facial
-              e corporal da grande Curitiba. Sua formação acadêmica inclui
-              estética e cosmética, farmácia, pós-graduação em estética e
-              cosmética, bem como residência em harmonização facial aplicada.
-              Mas não para por aí, ela está em constante aprimoramento pessoal e
-              atualmente está cursando medicina.
-            </p>
-            <p className="step-description">
-              Começou sua vida na estética aos 14 anos, trabalhando em salão de
-              beleza, onde atuou como manicure, depiladora e micropigmentadora,
-              além de ter ministrado diversos cursos nessas áreas. Viu que sua
-              missão de vida era trabalhar com a autoestima das pessoas.
-            </p>
-          </div>
-
-          <br />
-
-          <div className="container grid grid--2-cols grid--start-v">
-            <div className="step-img-box">
-              <Image
-                src="/img/fotos/dra-jo.jpg"
-                className="hero-img"
-                alt="Foto da Dra. Jociene Andrade"
-                width={1024}
-                height={1368}
-              />
-            </div>
-            <div className="step-text-box">
-              <p className="step-description">
-                Por isso, sua primeira graduação foi estética e cosmética, um
-                curso que lhe mostrou que estética é muito mais do que apenas
-                procedimentos de luxo e beleza, mas sim o resgate da autoestima
-                das pessoas. Focada em dar segmento e atuar com outros
-                procedimentos de estética avançada, graduou-se em farmácia, um
-                curso que lhe proporcionou conhecimento sobre o corpo humano e
-                aplicabilidade clínica dos medicamentos, o que lhe possibilitou
-                trabalhar com mais segurança na estética avançada.
-              </p>
-              <p className="step-description">
-                Além disso, realizou pós-graduação em estética e cosmética
-                aplicada, ganhando mais experiência para a prática clínica. Com
-                seus objetivos já alinhados, de que a parte prática é o que lhe
-                daria mais segurança para atender seus pacientes, realizou
-                residência em harmonização facial, um curso que lidava com
-                diversos casos reais de disfunções estéticas, onde ganhou muita
-                experiência para seus aprimoramentos profissionais. Ainda nesta
-                residência, já apaixonada pelos protocolos mais avançados,
-                decidiu que queria cursar medicina, visando sempre buscar mais
-                conhecimento para atender seus pacientes, o que hoje é um curso
-                que lhe traz extrema satisfação.
-              </p>
-              <p className="step-description">
-                A estética escolheu a Dra. Jô há muitos anos atrás e ela foi
-                apenas lapidando todos os pilares necessários para tornar a
-                profissional que é hoje, competente, apaixonada pelo seu
-                trabalho e comprometida com seus pacientes e que está sempre em
-                busca de conhecimento e evolução.
-              </p>
-            </div>
-          </div>
-
-          <div className="container">
-              <div className="grid">
-                <a href="#cta" className="btn btn--full margin-right-sm">
-                  Quero agendar minha avaliação!
-                </a>
-              </div>
-            </div>
-        </section>
-
-        <section className="section-how" id="how2">
+        
+        <section id="how-metodo" className="section-how">
           <div className="container">
             <span className="subheading">
               Rejuvenescimento com naturalidade
@@ -344,196 +255,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-how" id="how3">
-          <div className="container">
-            <span className="subheading">
-              Você dá valor ao seu tempo e ao seu dinheiro?
-            </span>
-            <p className="step-description">
-              Não existe tratamento sem planejamento e por entender o quanto o
-              nosso tempo é precioso, firmamos a premissa de te dar prioridade
-              em nosso atendimento. Nosso objetivo é atender pacientes
-              conscientes que entendem o valor de nossa responsabilidade
-              profissional para com a sua saúde. Por isso, uma avaliação de
-              qualidade é essencial e obrigatória para firmamos esse
-              compromisso.
-            </p>
-            <br/><br/>
-            <div className="grid">
-              <a href="#cta" className="btn btn--full margin-right-sm">
-                Quero agendar minha avaliação com responsabilidade!
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section className="section-meals" id="meals">
-          <div className="container center-text">
-            <span className="subheading">Atendimentos no Cabral</span>
-            <h2 className="heading-secondary">
-              EJ Estética de Alta Performance
-            </h2>
-            <h3 className="heading-tertiary">
-                Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR
-            </h3>
-          </div>
-
-          <div id="carousel" className="container grid">
-            <div
-              id="carouselExampleIndicators"
-              className="carousel slide"
-              data-ride="carousel"
-            >
-              <ol className="carousel-indicators">
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="0"
-                  className="active"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="1"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="2"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="3"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="4"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="5"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="6"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="7"
-                ></li>
-                <li
-                  data-target="#carouselExampleIndicators"
-                  data-slide-to="8"
-                ></li>
-              </ol>
-              <div className="carousel-inner">
-                <div className="carousel-item active">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance7.webp?auto=yes&bg=777&fg=555&text=Primeiro Slide"
-                    alt="Foto de frente da sala da Dra. Jô, mostrando a mesa, cadeira, decoração em detalhes clean nas cores branca, bege e lilás"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance3.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto da bancadinha de café da EJ Estética, com xicaras azuis, taças na cor prata e uma garrafa térmica"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance4.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto da segunda sala de recepção com dois sofazinhos e uma planta ao lado"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance5.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto da vista do sofazinho da segunda sala de recepção com vista para a sala da Dra. Jô"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance6.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto aérea da sala da Dra. Jô de frente para a sua mesa"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance2.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto da bancada de recepção da EJ Estética"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance8.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto da parte interna da sala da Dra. Jô, mostrando a decoração e a maca de procedimentos"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance9.webp?auto=yes&bg=666&fg=444&text=Segundo Slide"
-                    alt="Foto da sala da Dra. Elenita, mostrando os detalhes internos de sua sala"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-                <div className="carousel-item">
-                  <Image
-                    className="d-block w-100"
-                    src="/img/clinica/EJ-estetica-de-alta-performance10.webp?auto=yes&bg=555&fg=333&text=Terceiro Slide"
-                    alt="Foto da decoração da sala da Dra. Jô"
-                    width={1000}
-                    height={450}
-                  />
-                </div>
-              </div>
-              <a
-                className="carousel-control-prev"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="prev"
-              >
-                <span
-                  className="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="sr-only">Anterior</span>
-              </a>
-              <a
-                className="carousel-control-next"
-                href="#carouselExampleIndicators"
-                role="button"
-                data-slide="next"
-              >
-                <span
-                  className="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span className="sr-only">Próximo</span>
-              </a>
-            </div>
-          </div>
-        </section>
-
         <section className="section-testimonials" id="testimonials">
           <div className="testimonials-container">
             <span className="subheading">Depoimentos</span>
@@ -594,16 +315,89 @@ export default function Home() {
           </div>
         </section>
 
+        <section id="how-dra-jo" className="section-how">
+          <div className="container">
+            <h3 className="heading-tertiary">Quem é a Dra. Jô?</h3>
+            <p className="step-description">
+              Com mais de 18 anos de experiência no ramo da estética, a Dra.
+              Jociene Andrade é uma renomada especialista em harmonização facial
+              e corporal da grande Curitiba. Sua formação acadêmica inclui
+              estética e cosmética, farmácia, pós-graduação em estética e
+              cosmética, bem como residência em harmonização facial aplicada.
+              Mas não para por aí, ela está em constante aprimoramento pessoal e
+              atualmente está cursando medicina.
+            </p>
+            <p className="step-description">
+              Começou sua vida na estética aos 14 anos, trabalhando em salão de
+              beleza, onde atuou como manicure, depiladora e micropigmentadora,
+              além de ter ministrado diversos cursos nessas áreas. Viu que sua
+              missão de vida era trabalhar com a autoestima das pessoas.
+            </p>
+          </div>
+
+          <br />
+
+          <div className="container grid grid--2-cols grid--start-v">
+            <div className="step-img-box">
+              <Image
+                src="/img/fotos/dra-jo.jpg"
+                className="hero-img"
+                alt="Foto da Dra. Jociene Andrade"
+                width={1024}
+                height={1368}
+              />
+            </div>
+            <div className="step-text-box">
+              <p className="step-description">
+                Por isso, sua primeira graduação foi estética e cosmética, um
+                curso que lhe mostrou que estética é muito mais do que apenas
+                procedimentos de luxo e beleza, mas sim o resgate da autoestima
+                das pessoas. Focada em dar segmento e atuar com outros
+                procedimentos de estética avançada, graduou-se em farmácia, um
+                curso que lhe proporcionou conhecimento sobre o corpo humano e
+                aplicabilidade clínica dos medicamentos, o que lhe possibilitou
+                trabalhar com mais segurança na estética avançada.
+              </p>
+              <p className="step-description">
+                Além disso, realizou pós-graduação em estética e cosmética
+                aplicada, ganhando mais experiência para a prática clínica. Com
+                seus objetivos já alinhados, de que a parte prática é o que lhe
+                daria mais segurança para atender seus pacientes, realizou
+                residência em harmonização facial, um curso que lidava com
+                diversos casos reais de disfunções estéticas, onde ganhou muita
+                experiência para seus aprimoramentos profissionais. Ainda nesta
+                residência, já apaixonada pelos protocolos mais avançados,
+                decidiu que queria cursar medicina, visando sempre buscar mais
+                conhecimento para atender seus pacientes, o que hoje é um curso
+                que lhe traz extrema satisfação.
+              </p>
+              <p className="step-description">
+                A estética escolheu a Dra. Jô há muitos anos atrás e ela foi
+                apenas lapidando todos os pilares necessários para tornar a
+                profissional que é hoje, competente, apaixonada pelo seu
+                trabalho e comprometida com seus pacientes e que está sempre em
+                busca de conhecimento e evolução.
+              </p>
+            </div>
+          </div>
+
+          <div className="container">
+              <div className="grid">
+                <a href="#cta" className="btn btn--full margin-right-sm">
+                  Quero agendar minha avaliação!
+                </a>
+              </div>
+            </div>
+        </section>
+
         <section className="section-cta" id="cta">
           <div className="container">
             <div className="cta">
               <div className="cta-text-box">
                 <h2 className="heading-secondary">Agende sua avaliação!</h2>
-                <p className="cta-text">
-                    A avaliação é indispensável para um atendimento de
-                    qualidade... Agenda com vagas limitadas!
-                </p>
+                
                 <Form/>
+                
               </div>
               <div
                 className="cta-img-box"
@@ -613,54 +407,28 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <section className="section-meals" id="meals">
+          <div className="container center-text">
+            <span className="subheading">Atendimentos no Cabral</span>
+            <h2 className="heading-secondary">
+              EJ Estética de Alta Performance
+            </h2>
+            <h3 className="heading-tertiary">
+                Av. Paraná 202 - Sala 902 - Cabral - Curitiba - PR
+            </h3>
+          </div>
+        </section>
+
       </main>
 
       <footer className="footer">
-        <div className="container grid grid--footer">
-          <div className="logo-col">
-            <a href="#" className="footer-logo">
-              <Image
-                className="footer-logo"
-                alt="Logo Dra. Jociene Andrade"
-                src="/img/logo-comprida.png"
-                width={466}
-                height={100}
-              />
-            </a>
-
-            <ul className="social-links">
-              <li>
-                <div className="footer-instagram">
-                  <a
-                    className="footer-link"
-                    target="_blank"
-                    href="https://www.instagram.com/dra.jociene.andrade/"
-                    rel="noreferrer"
-                  >
-                    {/* <ion-icon className="social-icon" name="logo-instagram"></ion-icon> */}
-                  </a>
-                  <a
-                    className="footer-link"
-                    target="_blank"
-                    href="https://www.instagram.com/dra.jociene.andrade/"
-                    rel="noreferrer"
-                  >
-                    @dra.jociene.andrade
-                  </a>
-                </div>
-              </li>
-            </ul>
-
-            <p className="copyright">
-              Copyright &copy; <span className="year">2023</span> Dra. Jociene
-              Andrade. Todos os direitos reservados.
-            </p>
-          </div>
-
+        <div className="container">
           <div className="address-col">
             <p className="footer-heading">Contatos</p>
             <address className="contacts">
               <p className="address">
+              <span>Endereço: </span>
                 <a
                   className="footer-link"
                   target="_blank"
@@ -671,7 +439,7 @@ export default function Home() {
                 </a>
               </p>
               <p>
-                <span>Telefone:</span>
+                <span>Telefone: </span>
                 <a
                   className="footer-link"
                   target="_blank"
@@ -682,7 +450,7 @@ export default function Home() {
                 </a>
                 <br />
                 <br />
-                <span>Whatsapp:</span>
+                <span>Whatsapp: </span>
                 <a
                   className="footer-link"
                   target="_blank"
@@ -690,6 +458,17 @@ export default function Home() {
                   rel="noreferrer"
                 >
                   (41) 99288-4321
+                </a>
+                <br />
+                <br />
+                <span>Instagram: </span>
+                <a
+                  className="footer-link"
+                  target="_blank"
+                  href="https://instagram.com/dra.jociene.andrade"
+                  rel="noreferrer"
+                >
+                  @dra.jociene.andrade
                 </a>
               </p>
             </address>
