@@ -474,6 +474,11 @@ export default function Home() {
             </address>
           </div>
         </div>
+
+        <a href="https://bit.ly/agendar-avaliacao-dra-jo" className="whats-btn" target="_blank">
+          <i className="fa fa-whatsapp whats-btn-icon"></i>
+        </a>
+
       </footer>
     </>
   )
