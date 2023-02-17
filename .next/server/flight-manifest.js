@@ -81,32 +81,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/components/Form.tsx": {
-      "": {
-        "id": "(sc_client)/./src/components/Form.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/components/Form.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "Form": {
-        "id": "(sc_client)/./src/components/Form.tsx",
-        "name": "Form",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -316,32 +290,6 @@ self.__RSC_MANIFEST={
     "default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/ronszcka/Estética/next/envelhecimento/src/components/Form.tsx": {
-    "": {
-      "id": "(app-client)/./src/components/Form.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/Form.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "Form": {
-      "id": "(app-client)/./src/components/Form.tsx",
-      "name": "Form",
       "chunks": [
         "app/page:app/page"
       ],

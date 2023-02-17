@@ -2,7 +2,6 @@ import './styles.css'
 
 import Image from 'next/image'
 import Script from 'next/script'
-import { Form } from '../components/Form'
 
 export default function Home() {
   return (
@@ -43,7 +42,7 @@ export default function Home() {
               </p>
 
               <div className="hero-flex-buttons">
-                <a href="#cta" className="btn btn--full margin-right-sm">
+                <a href="https://bit.ly/agendar-avaliacao-dra-jo" className="btn btn--full margin-right-sm">
                   Quero agendar minha avaliação!
                 </a>
 
@@ -307,7 +306,7 @@ export default function Home() {
             <br/><br/><br/>
             <div className="container">
               <div className="grid">
-                <a href="#cta" className="btn btn--full margin-right-sm">
+                <a href="https://bit.ly/agendar-avaliacao-dra-jo" className="btn btn--full margin-right-sm">
                   Quero agendar minha avaliação!
                 </a>
               </div>
@@ -383,29 +382,11 @@ export default function Home() {
 
           <div className="container">
               <div className="grid">
-                <a href="#cta" className="btn btn--full margin-right-sm">
+                <a href="https://bit.ly/agendar-avaliacao-dra-jo" className="btn btn--full margin-right-sm">
                   Quero agendar minha avaliação!
                 </a>
               </div>
             </div>
-        </section>
-
-        <section className="section-cta" id="cta">
-          <div className="container">
-            <div className="cta">
-              <div className="cta-text-box">
-                <h2 className="heading-secondary">Agende sua avaliação!</h2>
-                
-                <Form/>
-                
-              </div>
-              <div
-                className="cta-img-box"
-                role="img"
-                aria-label="Dra. Jô descrevendo uma avaliação personalizada em sua mesa"
-              ></div>
-            </div>
-          </div>
         </section>
 
         <section className="section-meals" id="meals">
@@ -454,7 +435,7 @@ export default function Home() {
                 <a
                   className="footer-link"
                   target="_blank"
-                  href="https://api.whatsapp.com/send/?phone=5541992884321&text&type=phone_number&app_absent=0"
+                  href="https://bit.ly/agendar-avaliacao-dra-jo"
                   rel="noreferrer"
                 >
                   (41) 99288-4321
